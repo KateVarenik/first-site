@@ -1,0 +1,263 @@
+html, body {
+	margin: 0;
+	font-family: "Bariol", sans-serif;
+}
+
+.header{
+	margin: 0;
+	background: #f56262;
+	height: 110px;
+}
+.wrapper{
+	margin: 0 auto;
+	height: inherit;
+	width: 950px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+.header img{
+	float: left;
+}
+.logo{
+	height: inherit;
+	width: 200px;
+	float: left;
+}
+.logo #main{
+	font-size: 35px;
+	letter-spacing: 2px;
+	line-height: 28px;
+	color: #ffffff;
+	filter: drop-shadow(0px 1px 0.5px #c34b2a);
+	margin-top: 38px;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.logo img{
+	height: auto;
+	margin-top: 24px;
+	margin-right: 8px;
+}
+.logo p{
+	font-size: 17px;
+	letter-spacing: 0.6px;
+	line-height: 24px;
+	color: #ffffff;
+	margin-top: 6px;
+}
+
+.menu{
+	margin: 0;
+	height: inherit;
+	overflow: hidden;
+}
+
+.menu ul{
+	float: right;
+	margin: 48px auto;
+	height: inherit;
+}
+
+.menu li a{
+	text-decoration: none;
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: "Arial";
+}
+
+.menu li{
+	display: inline;
+	font-size: 18px;
+	margin-right: 50px;
+	height: inherit;
+}
+
+.welcome{
+	background: #eb4f4e;
+	height: 180px;
+}
+.welcome h1{
+	margin-top: 60px;
+	margin-bottom: 28px;
+	text-align: center;
+	font-size: 60px;
+	letter-spacing: 9px;
+	line-height: 24px;
+	color: #ffffff;
+	filter: drop-shadow(0px 1px 0.5px #c34b2a);
+}
+.welcome p{
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #ffffff;
+	filter: drop-shadow(0px 1px 0.5px #c34b2a);
+}
+.bg{
+	height: 368px;
+	background-color: #232324;
+}
+
+h2{
+	font-size: 40px;
+	letter-spacing: 6px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.bg p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #d94948;
+	margin-bottom: 38px;
+}
+.bg h2{
+	margin-top: 44px;
+	margin-bottom: 22px;
+}
+.bg p,h2{
+	text-align: center;
+}
+.bg .item p{
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 21px;
+	color: #e74c3c;
+	text-align: center;
+	margin-top: 14px;
+	margin-bottom: 28px;
+}
+h3{
+	font-size: 30px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.bg .item{
+	width: 310px;
+	height: 260px;
+	float: left;
+}
+.item img{
+	display: block;
+    margin: 0 auto;
+}
+.team{
+	height: 515px;
+	background: #6cc372;
+}
+.team p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #232324;
+	text-align: center;
+	margin-top: 18px;
+	margin-bottom: 40px;
+}
+.team h2{
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.shape {
+	width: 226px;
+	height: 341px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	float: left;
+	margin-right: 14px;
+}
+#last{
+	margin-right: 0px;
+}
+.circle{
+	width: 164px;
+	height: 164px;
+	border-radius: 82px;
+	filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.15));
+	background-color: #6cc372;
+	display: block;
+	margin: 25px 31px;
+}
+.photo{
+	filter: drop-shadow(0px 1px 0.5px rgba(255,255,255,0.35));
+	display: block;
+	padding: 9px;
+}
+.shape .name{
+	font-size: 25px;
+	letter-spacing: 0px;
+	line-height: 24px;
+	color: #61af66;
+	filter: drop-shadow(0px 1px 0.5px #ffffff);
+	margin: 0;
+}
+.shape .position{
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 21px;
+	color: #e74c3c;
+	text-align: center;
+	filter: drop-shadow(0px 1px 0.5px #ffffff);
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+.shape .button{
+	width: 204px;
+	height: 43px;
+	border-radius: 3px;
+	filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.3));
+	background-color: #6cc372;
+	margin: 11px;
+}
+.shape .button a{
+	display: block;
+	height: 100%;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #ffffff;
+	font-family: "Bariol";
+	text-decoration: none;
+	padding-top: 10px;
+}
+.shape .button img{
+	margin: 9px 21px 8px 10px;
+	float: left;
+}
+.footer{
+	height: 48px;
+	background-color: #232324;
+}
+.footer p{
+	font-size: 18px;
+	line-height: 32px;
+	color: #ffffff;
+	float: left;
+	margin: 10px 0px;
+}
+.footer span{
+	color: #eb4f4e;
+}
+.footer .icon{
+	width: 28px;
+	height: 29px;
+	border-radius: 2px;
+	background-color: #eb4f4e;
+	float: right;
+	margin: 10px 8px;
+	position: relative;
+}
+.footer img{
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
